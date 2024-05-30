@@ -1,0 +1,8 @@
+git config --global user.name "Luanfelima"   --Configura usuario
+git config --global user.email luanfelima@gmail.com   --Configura email
+git add .    -- Mapeia as alterações
+git push --set-upstream origin nomedabranch   --Para alterar a branch é necessário colocar esse comando
+git checkout nomedabranch   --Altera a branch para modificar e dar push
+git merge nomedabranch  --Sobe todas as alterações de uma branch para outra
+git commit -m "Comentario da sua nova commit"    --Enviar um comentário para sua commit, tem restrição de caracteres
+git push    --Sobe todas as alterações no git
